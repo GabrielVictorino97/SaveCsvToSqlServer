@@ -49,7 +49,7 @@ namespace SaveCsvToSqlServer
             }
             catch (Exception)
             {
-                Console.WriteLine("Ocorreu um erro ao importar os dados.");
+                Console.WriteLine("Ocorreu um erro.");
                 Console.ReadLine();
             }
         }
