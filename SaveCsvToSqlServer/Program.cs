@@ -44,7 +44,8 @@ namespace SaveCsvToSqlServer
                     connection.Close();
                 }
 
-                Console.WriteLine("Importado");
+                Console.WriteLine("Importado com sucesso!");
+
                 Console.ReadLine();
             }
             catch (Exception)
